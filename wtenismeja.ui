@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WTenisMeja</class>
+ <widget class="QWidget" name="WTenisMeja">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WTenisMeja</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#0000ff;&quot;&gt;Nama&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="lcdNumber">
+         <property name="styleSheet">
+          <string notr="true">* { background-color:rgb(255,0,0);}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QToolButton" name="toolButton_2">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="icon.qrc">
+             <normaloff>:/icon/arrow-down.png</normaloff>:/icon/arrow-down.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>Point</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt; font-weight:600;&quot;&gt;VS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="lcdNumber_3"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="text">
+          <string>Pindah Service</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#ff0000;&quot;&gt;Nama&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="lcdNumber_2">
+         <property name="styleSheet">
+          <string notr="true">* { background-color:rgb(255,0,0);}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QToolButton" name="toolButton">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="icon.qrc">
+             <normaloff>:/icon/arrow-down.png</normaloff>:/icon/arrow-down.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="text">
+            <string>Point</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QWebView" name="webView">
+     <property name="url">
+      <url>
+       <string>about:blank</string>
+      </url>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>Select People</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALFAKHI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AGUS</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ARFAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AYYUB</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DARMAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>EDWIN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>EWIN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>HAJRUNA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ISHAK</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>JHUN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>KIKI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MAMAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MIRWAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MOH.KHARIS</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>RIFKY</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>REVEN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SUFRIADI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SYAHRULLAH</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SURAHMAT</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TAKIM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VICTOR</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>WAWAN</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Pulihkan</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Next Mach</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <item>
+        <property name="text">
+         <string>Select  People</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALFAKHI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AGUS</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ARFAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AYYUB</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DARMAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>EDWIN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>EWIN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>HAJRUNA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ISHAK</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>JHUN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>KIKI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MAMAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MIRWAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MOH.KHARIS</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>RIFKY</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>REVEN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SUFRIADI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SYAHRULLAH</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SURAHMAT</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TAKIM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VICTOR</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>WAWAN</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKitWidgets/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
